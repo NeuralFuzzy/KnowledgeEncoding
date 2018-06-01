@@ -1,2 +1,4 @@
 # KnowledgeEncoding
-This is an implementation of 3 layered MLP using rough-set-theoretic concepts for initial weight encoding
+
+This is an implementation of 3 layered MLP using rough-set-theoretic concepts for initial weight encoding. The code runs on Vowel Dataset. The features are fuzzy-coded using PI membership function, and n dimensional pattern is represented in 3n dimensional vector. The fuzzy MLP uses rough set concepts and a methodology using rough sets is formulated for encoding initial knowledge. The initial connection weights of fuzzy MLP are computed using the concepts of Dependency factor and rule generation. D reducts are computed using method described in rough sets, discernibility matrix is derived, discernibility function is obtained and corresponding rules are generated. These rules help in deciding the connection of neurons in the hidden layer and dependency factor calculates the initial weights of the connection and also computes the number of neurons in the hidden layer.
+
